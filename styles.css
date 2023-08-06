@@ -22,17 +22,19 @@ h1 {
 }
 
 .links {
-    color: azure;
+    color: rgb(0, 0, 0);
     margin-top: 0px;
     font-size: 32;
     font-weight: bold;
-    text-align: center;
     background-image: url(https://t3.ftcdn.net/jpg/01/91/95/30/360_F_191953033_gehQATeDoh5z6PyRDbeKyBZuS83CjMEF.jpg);
+    border-radius: 15px;
+    width: 25%;
+    text-align: center;
     -webkit-animation: fadeInUp 1.2s both;
     -moz-animation: fadeInUp 1.2s both;
     -o-animation: fadeInUp 1.2s both;
     animation: fadeInUp 1.2s both;
-
+    margin-left: 37.5%;
 }
 
 .main-intro-tab {
@@ -40,7 +42,7 @@ h1 {
     border-radius: 47px;
     border-spacing: 5px;
     border-style: solid;
-    border-color: rgb(0, 0, 0);
+    border-color: rgb(241, 237, 243);
     font-size: 32;
     font-weight: bold;
     color: aliceblue;
