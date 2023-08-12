@@ -69,15 +69,6 @@ nav ul li a:hover::after{
   list-style: none;
 }
 
-/* .links::after {
-  content: '';
-  width: 100%;
-  height: 3px;
-  background: #ff004f;
-  position: absolute;
-  left: 0;
-} */
-
 .intro-area {
   height: auto;
   transition-delay: 1s;
@@ -97,17 +88,19 @@ nav ul li a:hover::after{
     float: Left;
     margin: auto;
     padding: 1%;
+    transition: 1s;
 
 }
 
 .Headshot:hover {
-  opacity: 85%;
+  opacity: 93%;
+  transform: scale(104%);
 }
 
 .main-intro-tab {
     color: white;
     text-align: left;
-    background: rgb(17, 13, 13);
+    background: rgb(10, 8, 8);
     border-width: 12px;
     border-style: solid;
     border-color: red;
@@ -118,6 +111,8 @@ nav ul li a:hover::after{
     display: flex;
     padding: 1%;
     transition: 1s;
+    flex-wrap: wrap;
+    display: inline-block;
 }
 
 .main-intro-tab:hover {
