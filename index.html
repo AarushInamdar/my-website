@@ -15,7 +15,7 @@
     <div id="top" class="top_area">
       <div class="links">
         <nav>
-          <img src="aarush..png", class="logo"> 
+          <img src="aarush..png", class="logo", onClick="window.location.reload(true)"> 
           <ul>
             <li><a href="https://www.linkedin.com/in/aarush-inamdar/" target="_blank">LinkedIn</a></li>
             <li><a href="https://github.com/AarushInamdar" target="_blank">GitHub</a></li>
@@ -40,9 +40,9 @@
           </div>
         </div>
         <div class = 'tab-titles'>
-          <p class='tab-links active-link' onclick="opentab('skills')">My Journey and Experiences</p>
-          <p class='tab-links' onclick="opentab('experience')">Skills</p>
-          <p class='tab-links' onclick="opentab('education')">Education</p>
+          <p class='tab-links active-link hidden' onclick="opentab('skills')">My Journey and Experiences</p>
+          <p class='tab-links hidden' onclick="opentab('experience')">Skills</p>
+          <p class='tab-links hidden' onclick="opentab('education')">Education</p>
         </div>
         <div class='tab-contents active-tab' id="skills">
           <div class="timeline hidden">
@@ -111,8 +111,48 @@
             </div>
           </div>
         </div>
-        <div class="tab-contents" id="experience"><p>Skills</p></div>
-        <div class="tab-contents" id="education"><p>Education</p></div>
+        <div class="tab-contents hidden" id="experience">
+          <div class="container2 hidden">
+            <div class="panel__wrapper-icon mb-100 brk-library-rendered" data-brk-library="component__panel">
+              <div class="panel__head all-light">
+                <h4 class="font__family-montserrat font__weight-medium font__size-21">My Skills</h4>
+                <p class="font__family-open-sans font__size-14">Courses: Programming Libraries, Boolean Logic, Intermediate and Object Oriented Programming, Probability and Statistics in Computer Science, Software Engineering Principles, Data Science Seminar, Discrete Structures, Calculus II</p>
+              </div>
+              <ul class="panel__list">
+                <li>
+                  <span class="line"></span>
+                  <i class="icon far fa-gem"></i>Python
+                </li>
+                <li>
+                  <span class="line"></span>
+                  <i class="icon fab fa-gg"></i>JavaScript, HTML/CSS
+                </li>
+                <li>
+                  <span class="line"></span>
+                  <i class="icon far fa-gem"></i>Git
+                </li>
+                <li>
+                  <span class="line"></span>
+                  <i class="icon fab fa-gg"></i>React
+                </li>
+                <li>
+                  <span class="line"></span>
+                  <i class="icon far fa-gem"></i>Swift
+                </li>
+                <li>
+                  <span class="line"></span>
+                  <i class="icon fab fa-gg"></i>SQL
+                </li>
+              </ul>
+            </div>
+            
+    
+    
+    
+        </div>
+        
+        </div>
+        <div class="tab-contents hidden" id="education"><p>University of California, Irvine</p></div>
           
 
         <button onclick="topFunction()" class="topButton hidden" id="topButton" title="Go to top">Top</button>
