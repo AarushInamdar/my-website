@@ -82,8 +82,7 @@ nav ul li a:hover::after{
 
 
 .Headshot {
-    height: 15%;
-    width: 15%;
+    height: 40pc;
     border-radius: 50px;
     float: Left;
     margin: auto;
